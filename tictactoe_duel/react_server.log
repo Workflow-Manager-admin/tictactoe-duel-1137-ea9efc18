@@ -1,0 +1,80 @@
+
+> react-kavia@0.1.0 start
+> react-scripts start
+
+(node:352) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:352) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+Starting the development server...
+
+Compiled successfully!
+
+You can now view react-kavia in the browser.
+
+  Local:            http://localhost:3000
+  On Your Network:  http://172.17.0.3:3000
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+
+webpack compiled successfully
+Watchpack Error (initial scan): Error: ENOTSUP: operation not supported on socket, lstat '/tmp/.s.PGSQL.5432'
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/App.js
+Syntax error: Private names are only allowed in property accesses (`obj.#changes`) or in `in` expressions (`#changes in obj`). (3:0) (3:undefined)
+ERROR in ./src/App.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /tmp/kavia/workspace/code-generation/tictactoe-duel-1137-ea9efc18/tictactoe_duel/src/App.js: Private names are only allowed in property accesses (`obj.#changes`) or in `in` expressions (`#changes in obj`). (3:0)
+
+  1 | import React from 'react';
+  2 | import './App.css';
+> 3 | #changes
+    | ^
+  4 | function App() {
+  5 |   return (
+  6 |     <div className="app">
+    at constructor (/tmp/kavia/workspace/code-generation/tictactoe-duel-1137-ea9efc18/tictactoe_duel/node_modules/@babel/parser/lib/index.js:360:19)
+    at FlowParserMixin.raise (/tmp/kavia/workspace/code-generation/tictactoe-duel-1137-ea9efc18/tictactoe_duel/node_modules/@babel/parser/lib/index.js:3327:19)
+    at FlowParserMixin.parseExprOp (/tmp/kavia/workspace/code-generation/tictactoe-duel-1137-ea9efc18/tictactoe_duel/node_modules/@babel/parser/lib/index.js:10591:14)
+    at FlowParserMixin.parseExprOps (/tmp/kavia/workspace/code-generation/tictactoe-duel-1137-ea9efc18/tictactoe_duel/node_modules/@babel/parser/lib/index.js:10585:17)
+    at FlowParserMixin.parseMaybeConditional (/tmp/kavia/workspace/code-generation/tictactoe-duel-1137-ea9efc18/tictactoe_duel/node_modules/@babel/parser/lib/index.js:10558:23)
+    at FlowParserMixin.parseMaybeAssign (/tmp/kavia/workspace/code-generation/tictactoe-duel-1137-ea9efc18/tictactoe_duel/node_modules/@babel/parser/lib/index.js:10521:21)
+    at FlowParserMixin.parseMaybeAssign (/tmp/kavia/workspace/code-generation/tictactoe-duel-1137-ea9efc18/tictactoe_duel/node_modules/@babel/parser/lib/index.js:5773:18)
+    at FlowParserMixin.parseExpressionBase (/tmp/kavia/workspace/code-generation/tictactoe-duel-1137-ea9efc18/tictactoe_duel/node_modules/@babel/parser/lib/index.js:10475:23)
+    at /tmp/kavia/workspace/code-generation/tictactoe-duel-1137-ea9efc18/tictactoe_duel/node_modules/@babel/parser/lib/index.js:10471:39
+    at FlowParserMixin.allowInAnd (/tmp/kavia/workspace/code-generation/tictactoe-duel-1137-ea9efc18/tictactoe_duel/node_modules/@babel/parser/lib/index.js:12095:16)
+    at FlowParserMixin.parseExpression (/tmp/kavia/workspace/code-generation/tictactoe-duel-1137-ea9efc18/tictactoe_duel/node_modules/@babel/parser/lib/index.js:10471:17)
+    at FlowParserMixin.parseStatementContent (/tmp/kavia/workspace/code-generation/tictactoe-duel-1137-ea9efc18/tictactoe_duel/node_modules/@babel/parser/lib/index.js:12539:23)
+    at FlowParserMixin.parseStatementLike (/tmp/kavia/workspace/code-generation/tictactoe-duel-1137-ea9efc18/tictactoe_duel/node_modules/@babel/parser/lib/index.js:12406:17)
+    at FlowParserMixin.parseStatementLike (/tmp/kavia/workspace/code-generation/tictactoe-duel-1137-ea9efc18/tictactoe_duel/node_modules/@babel/parser/lib/index.js:5140:24)
+    at FlowParserMixin.parseModuleItem (/tmp/kavia/workspace/code-generation/tictactoe-duel-1137-ea9efc18/tictactoe_duel/node_modules/@babel/parser/lib/index.js:12383:17)
+    at FlowParserMixin.parseBlockOrModuleBlockBody (/tmp/kavia/workspace/code-generation/tictactoe-duel-1137-ea9efc18/tictactoe_duel/node_modules/@babel/parser/lib/index.js:12960:36)
+    at FlowParserMixin.parseBlockBody (/tmp/kavia/workspace/code-generation/tictactoe-duel-1137-ea9efc18/tictactoe_duel/node_modules/@babel/parser/lib/index.js:12953:10)
+    at FlowParserMixin.parseProgram (/tmp/kavia/workspace/code-generation/tictactoe-duel-1137-ea9efc18/tictactoe_duel/node_modules/@babel/parser/lib/index.js:12280:10)
+    at FlowParserMixin.parseTopLevel (/tmp/kavia/workspace/code-generation/tictactoe-duel-1137-ea9efc18/tictactoe_duel/node_modules/@babel/parser/lib/index.js:12270:25)
+    at FlowParserMixin.parseTopLevel (/tmp/kavia/workspace/code-generation/tictactoe-duel-1137-ea9efc18/tictactoe_duel/node_modules/@babel/parser/lib/index.js:5909:28)
+    at FlowParserMixin.parse (/tmp/kavia/workspace/code-generation/tictactoe-duel-1137-ea9efc18/tictactoe_duel/node_modules/@babel/parser/lib/index.js:14120:10)
+    at parse (/tmp/kavia/workspace/code-generation/tictactoe-duel-1137-ea9efc18/tictactoe_duel/node_modules/@babel/parser/lib/index.js:14154:38)
+    at parser (/tmp/kavia/workspace/code-generation/tictactoe-duel-1137-ea9efc18/tictactoe_duel/node_modules/@babel/core/lib/parser/index.js:41:34)
+    at parser.next (<anonymous>)
+    at normalizeFile (/tmp/kavia/workspace/code-generation/tictactoe-duel-1137-ea9efc18/tictactoe_duel/node_modules/@babel/core/lib/transformation/normalize-file.js:64:37)
+    at normalizeFile.next (<anonymous>)
+    at run (/tmp/kavia/workspace/code-generation/tictactoe-duel-1137-ea9efc18/tictactoe_duel/node_modules/@babel/core/lib/transformation/index.js:22:50)
+    at run.next (<anonymous>)
+    at transform (/tmp/kavia/workspace/code-generation/tictactoe-duel-1137-ea9efc18/tictactoe_duel/node_modules/@babel/core/lib/transform.js:22:33)
+    at transform.next (<anonymous>)
+    at step (/tmp/kavia/workspace/code-generation/tictactoe-duel-1137-ea9efc18/tictactoe_duel/node_modules/gensync/index.js:261:32)
+    at /tmp/kavia/workspace/code-generation/tictactoe-duel-1137-ea9efc18/tictactoe_duel/node_modules/gensync/index.js:273:13
+    at async.call.result.err.err (/tmp/kavia/workspace/code-generation/tictactoe-duel-1137-ea9efc18/tictactoe_duel/node_modules/gensync/index.js:223:11)
+
+ERROR in [eslint] 
+src/App.js
+  Line 3:  Parsing error: Private names are only allowed in property accesses (`obj.#changes`) or in `in` expressions (`#changes in obj`). (3:0)
+
+webpack compiled with 2 errors
+Compiling...
+Compiled successfully!
+webpack compiled successfully
